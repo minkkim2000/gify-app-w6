@@ -1,0 +1,76 @@
+body{
+	background-image: url(images/background.png);
+}
+
+div {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    text-align: center;
+    background: none;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: #F5F5F5;
+    letter-spacing: .05em;
+    text-shadow: 8px 8px 0px rgb(0, 128, 255), 17px 17px 0px rgb(255, 255, 0);
+    font-family: 'Modak', cursive;
+}
+
+h2{
+	font-family: 'Catamaran', sans-serif;
+	color: 	white;
+	text-shadow: 3px 3px 0px rgb(255, 0, 0);
+}
+
+
+.gifgifgif {
+    float: left;
+    margin: 10px;
+    margin-top: 0;
+    background: rgba(255,255,255,.5);
+    padding: 15px;
+}
+
+.gifgifgif:hover {
+    border: 3px dotted red;
+}
+
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: coral;
+}
+
+form {
+	font-family: 'Catamaran', sans-serif;
+    float: left;
+    background: rgba(255, 255, 255, .5);
+    padding: 20px;
+}
+
+input, p{
+	font-family: 'Catamaran', sans-serif;
+}
+
+#gif-results {
+    margin-top: 0;
+    float: right;
+    padding: 20px;
+    padding-top: 0;
+}
+
+button {
+	font-family: 'Catamaran', sans-serif;
+
+}
+
+#keyword-input {
+    font-size: 12px;
+}
